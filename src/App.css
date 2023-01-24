@@ -1,0 +1,49 @@
+body{
+  padding: 20px;
+  margin: 0;
+}
+
+.player__button{
+  padding: 8px;
+  border-radius: 20px;
+  background-color: #576F72;
+  color: white;
+}
+
+.player__input{
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  font-size: 1.3rem;
+  color: black;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+
+}
+
+.player__input:focus {
+    display: block;
+    transition: 0.2s;
+    font-size: 1.4rem;
+    font-weight: bolder;    
+    padding-bottom: 6px;  
+    font-weight: 700;
+    border-width: 3px;
+}
+
+.player__button:hover{
+  outline-color: transparent;
+  background-color: #BBBFCA;
+}
+
+.player__button:focus{
+  outline-color: transparent;
+  background-color: #3d3d25;
+  transition: all;
+  transition-duration: 150ms;
+  transition-timing-function: ease-in-out;
+}
+
